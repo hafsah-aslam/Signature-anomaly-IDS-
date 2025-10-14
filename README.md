@@ -38,6 +38,8 @@ Comprehensive step-by-step instructions are provided below for easy implementati
 - Thursday-WorkingHours.pcap_ISCX.csv
 - Friday-WorkingHours.pcap_ISCX.csv
 - combined_dataset.csv (generated after processing)
+
+
 This dual approach ensures robust evaluation:
 - **Combined dataset** for comprehensive model training
 - **Day-wise files** for realistic open-set validation and attack family isolation
