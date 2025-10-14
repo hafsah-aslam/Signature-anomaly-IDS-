@@ -12,20 +12,19 @@ This project implements a hybrid intrusion detection system using the CIC-IDS201
 
 
 # Installation 
-#Requirements
- Core data science libraries
+ ### Core data science libraries
 pandas>=1.5.0
 numpy>=1.21.0
 scikit-learn>=1.0.0
 matplotlib>=3.5.0
 seaborn>=0.11.0
-# Specialized libraries
+
+### Specialized libraries
 imbalanced-learn>=0.9.0
 shap>=0.41.0
-
-# Optional for advanced features
+Optional for advanced features
 google-colab  # if running in Colab environment
-•	Quick Setup
+### Quick Setup
 pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn shap
 
 ## Experimental steps 
