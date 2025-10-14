@@ -12,8 +12,8 @@ This project implements a hybrid intrusion detection system using the CIC-IDS201
 
 
 # Installation 
-•	Requirements
-# Core data science libraries
+#Requirements
+ Core data science libraries
 pandas>=1.5.0
 numpy>=1.21.0
 scikit-learn>=1.0.0
