@@ -31,16 +31,22 @@ pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn shap
 
 Comprehensive step-by-step instructions are provided below for easy implementation.
 
-# Dataset Preparation
-  ├── Monday-WorkingHours.pcap_ISCX.csv
-  ├── Tuesday-WorkingHours.pcap_ISCX.csv
-  ├── Wednesday-WorkingHours.pcap_ISCX.csv
-  ├── Thursday-WorkingHours.pcap_ISCX.csv
-  ├── Friday-WorkingHours.pcap_ISCX.csv
-  └── combined_dataset.csv (generated after processing)
+### Dataset Preparation
+  ## Dataset Preparation
+
+- Monday-WorkingHours.pcap_ISCX.csv
+- Tuesday-WorkingHours.pcap_ISCX.csv  
+- Wednesday-WorkingHours.pcap_ISCX.csv
+- Thursday-WorkingHours.pcap_ISCX.csv
+- Friday-WorkingHours.pcap_ISCX.csv
+- combined_dataset.csv (generated after processing)
+
 This dual approach ensures robust evaluation:
-   Combined dataset for comprehensive model training
-   Day-wise files for realistic open-set validation and attack family isolation
+
+- **Combined dataset** for comprehensive model training
+- **Day-wise files** for realistic open-set validation and attack family isolation
+
+The core pipeline can be run in the following sequence:
 The core pipeline can be run in the following sequence:
 1.	Open preprocessing_pipeline.py 
 2.	The default settings are for processing the CIC-IDS2017 dataset. Users can change the input file path and output results path at:
